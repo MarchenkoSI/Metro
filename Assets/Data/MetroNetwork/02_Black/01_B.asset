@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585c6ebbc9742714c83f952a79d90e0d, type: 3}
+  m_Name: 01_B
+  m_EditorClassIdentifier: 
+  stationName: B
+  neighbors:
+  - {fileID: 11400000, guid: 600db80034ca4f6438b721ed6394e073, type: 2}
+  transferTo:
+  - {fileID: 11400000, guid: c33c1e21a8b8aff4984904c994a405f7, type: 2}

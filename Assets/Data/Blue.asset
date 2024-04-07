@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c81f6c1aed2a448a4d863d0c28945, type: 3}
+  m_Name: Blue
+  m_EditorClassIdentifier: 
+  lineName: Blue
+  lineColor: {r: 0.001004219, g: 0, b: 1, a: 1}
+  stations:
+  - {fileID: 11400000, guid: 3eacd647b34acb2408053913c19746e8, type: 2}
+  - {fileID: 11400000, guid: 4b0d6873957ec274791d14425f2e5208, type: 2}
+  - {fileID: 11400000, guid: 8ad7ef77640d0a345ae2a944140fc426, type: 2}
+  - {fileID: 11400000, guid: 3ecde418b4e6bae4190ef9112fac2def, type: 2}
+  - {fileID: 11400000, guid: 0aca7bde0bfd4764b9b81eb2c9e777bc, type: 2}
+  transfers:
+  - from: {fileID: 11400000, guid: 3eacd647b34acb2408053913c19746e8, type: 2}
+    to: {fileID: 11400000, guid: 4b0d6873957ec274791d14425f2e5208, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: 4b0d6873957ec274791d14425f2e5208, type: 2}
+    to: {fileID: 11400000, guid: 8ad7ef77640d0a345ae2a944140fc426, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: 8ad7ef77640d0a345ae2a944140fc426, type: 2}
+    to: {fileID: 11400000, guid: 3ecde418b4e6bae4190ef9112fac2def, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: 3ecde418b4e6bae4190ef9112fac2def, type: 2}
+    to: {fileID: 11400000, guid: 0aca7bde0bfd4764b9b81eb2c9e777bc, type: 2}
+    timeInSeconds: 120
+  transitions:
+  - {fileID: 11400000, guid: 50dd1699d9ccf3b4bb9733db93703df1, type: 2}
+  - {fileID: 11400000, guid: 215a9ddb0c0e2794c84154189493d32f, type: 2}
+  - {fileID: 11400000, guid: 56ce4e1bfe046ff4aaaf45443bec7540, type: 2}
+  - {fileID: 11400000, guid: 3b4674d0b24694845a0805d264ef919d, type: 2}

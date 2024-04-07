@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b55e08d2225cbd44a6c45c0de83214c, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  stations:
+  - {fileID: 11400000, guid: 73273f4f8a28bcf4cbe4e020ba7f1ced, type: 2}
+  - {fileID: 11400000, guid: acb835912a1bb704b94b2bde83e593f5, type: 2}
+  - {fileID: 11400000, guid: 506492469d67eb94e9e98a171b3aecaf, type: 2}
+  - {fileID: 11400000, guid: 9e1a444b9eca494408adb588eb5da570, type: 2}
+  - {fileID: 11400000, guid: 1b8e64b802a93804d95d6d428a06d655, type: 2}
+  - {fileID: 11400000, guid: cc27470ff20352640a929d3304ed8ff6, type: 2}
+  transferStations:
+  - {fileID: 11400000, guid: 73273f4f8a28bcf4cbe4e020ba7f1ced, type: 2}
+  - {fileID: 11400000, guid: acb835912a1bb704b94b2bde83e593f5, type: 2}
+  - {fileID: 11400000, guid: 506492469d67eb94e9e98a171b3aecaf, type: 2}
+  - {fileID: 11400000, guid: 1b8e64b802a93804d95d6d428a06d655, type: 2}
+  isCircle: 1

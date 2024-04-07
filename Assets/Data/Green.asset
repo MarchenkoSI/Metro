@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03c81f6c1aed2a448a4d863d0c28945, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  lineName: Green
+  lineColor: {r: 0, g: 1, b: 0.07667947, a: 1}
+  stations:
+  - {fileID: 11400000, guid: d336e2e3c3392734dacf1f4147e3c70e, type: 2}
+  - {fileID: 11400000, guid: 58eeeddd14335c84199ec1cb28d1e062, type: 2}
+  - {fileID: 11400000, guid: a5ac9c2f291d5c64b84117721dfeaf6c, type: 2}
+  - {fileID: 11400000, guid: d059c850f02504d469eaef8d1aa22f1b, type: 2}
+  - {fileID: 11400000, guid: 818a72c2fcbb4c4489ee8b6ff16d6dd0, type: 2}
+  - {fileID: 11400000, guid: b48a8be26d831f34fa8acc5a2373f081, type: 2}
+  transfers:
+  - from: {fileID: 11400000, guid: d336e2e3c3392734dacf1f4147e3c70e, type: 2}
+    to: {fileID: 11400000, guid: 58eeeddd14335c84199ec1cb28d1e062, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: 58eeeddd14335c84199ec1cb28d1e062, type: 2}
+    to: {fileID: 11400000, guid: a5ac9c2f291d5c64b84117721dfeaf6c, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: a5ac9c2f291d5c64b84117721dfeaf6c, type: 2}
+    to: {fileID: 11400000, guid: d059c850f02504d469eaef8d1aa22f1b, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: d059c850f02504d469eaef8d1aa22f1b, type: 2}
+    to: {fileID: 11400000, guid: 818a72c2fcbb4c4489ee8b6ff16d6dd0, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: 818a72c2fcbb4c4489ee8b6ff16d6dd0, type: 2}
+    to: {fileID: 11400000, guid: b48a8be26d831f34fa8acc5a2373f081, type: 2}
+    timeInSeconds: 120
+  - from: {fileID: 11400000, guid: b48a8be26d831f34fa8acc5a2373f081, type: 2}
+    to: {fileID: 11400000, guid: d336e2e3c3392734dacf1f4147e3c70e, type: 2}
+    timeInSeconds: 120
+  transitions:
+  - {fileID: 11400000, guid: b26907a2127158e438b58c7d7ddbec52, type: 2}
+  - {fileID: 11400000, guid: 6756478a297e3a34f8e4911b707e1392, type: 2}
+  - {fileID: 11400000, guid: 190020670a44fff4186c77c5397a5543, type: 2}
+  - {fileID: 11400000, guid: b82b26763d0449a49ad92840928e6e7b, type: 2}
+  - {fileID: 11400000, guid: 9bad9c5949341d643997928cf296b08e, type: 2}
